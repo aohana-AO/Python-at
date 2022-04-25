@@ -7,6 +7,7 @@ while (d==False and len(s)>=200000):
 
 
 
+
 s_list = list()
 for it in permutations(s):
     s_list.append("".join(it))
