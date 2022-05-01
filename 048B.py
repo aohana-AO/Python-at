@@ -1,0 +1,6 @@
+a,b,x=map(int, input().split())
+#a=input()
+#b=input()
+#x=input()
+ans=(b//x-(a-1)//x)
+print(ans)
